@@ -21,7 +21,7 @@ def submit():
         return f"Login successfully by post method, Hello {user}"
     else:
         user = request.args.get('nm')
-        return f"Login successfully by get method, Hello {user}"
+        return f"Login successfully by get method, Hello to you {user}"
 
 
 if __name__ == "__main__":
