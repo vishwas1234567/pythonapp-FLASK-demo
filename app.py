@@ -18,7 +18,7 @@ def logout():
 def submit():
     if request.method == 'POST':
         user = request.form['nm']
-        return f"Login successfully by post method, Hello {user}"
+        return f"Login successfully by post method, Hello world to {user}"
     else:
         user = request.args.get('nm')
         return f"Login successfully by get method, Hello {user}"
